@@ -1,0 +1,18 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <Nullable>enable</Nullable>
+        <ImplicitUsings>enable</ImplicitUsings>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="EpubCore" Version="1.6.1" />
+      <PackageReference Include="HtmlAgilityPack" Version="1.11.67" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Outputs\" />
+    </ItemGroup>
+
+</Project>
